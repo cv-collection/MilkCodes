@@ -96,6 +96,11 @@ class NotQuery{
     }
     
 };
+
+class BinaryQuery{
+protected:
+    Query lhs,rhs;
+};
 ```
 
 ## BinaryQuery的派生类
@@ -154,12 +159,12 @@ class OrQuery
 ## 流程
 
 1.实现多态
-
-Query("hello")->创建一个WordQuery的对象初始化私有的Query(shared_ptr\<Query_base\>) _p
-
+Query("hello")->创建一个WordQuery的对象初始化私有的Query(shared_ptr\<Query_base\>) \_p
 重载运算符--return shared_ptr\<Query_base\>(new OrQuery/AndQuery/NotQuery); 隐式转换了，本质返回一个Query对象
 
-2.Query中的Query_base指针是私有的--需要接口函数
+2.接口函数
+Query中的Query_base指针是私有的
 
+3.设置友元
 
 
