@@ -52,8 +52,6 @@ void Query::printfrom(const string &filename){
     }
 }
 
-Query operator~(const Query &rhs);
-
 class WordQuery
 :public Query_base
 {
