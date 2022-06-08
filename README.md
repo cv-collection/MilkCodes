@@ -1,2 +1,2 @@
 # MilkCodes
-windows-codes-save
+Milk-codes-save
