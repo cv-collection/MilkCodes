@@ -17,5 +17,5 @@ starton = (stack.size()<backon.size())?stack:backon;
 backon = (stack.size()<backon.size())?backon:stack;
 ```
 
-![1654704685000](.\assets\1654704685000.png)
+![1654704685000](..\assets\1654704685000.png)
 
