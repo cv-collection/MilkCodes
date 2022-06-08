@@ -17,5 +17,4 @@ starton = (stack.size()<backon.size())?stack:backon;
 backon = (stack.size()<backon.size())?backon:stack;
 ```
 
-<img src="../assets/1654704685000.png"
-
+<img src="../assets/1654704685000.png">
